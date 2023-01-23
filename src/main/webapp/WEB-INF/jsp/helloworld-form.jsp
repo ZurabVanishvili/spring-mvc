@@ -13,8 +13,10 @@
 <body>
 
 <form action="processFormVersionThree" method="GET">
+    <label>
         <input type="text" name="studentName"
                placeholder="What's your name?"/>
+    </label>
 
     <input type="submit"/>
 </form>

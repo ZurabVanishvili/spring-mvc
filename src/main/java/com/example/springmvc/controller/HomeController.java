@@ -9,6 +9,6 @@ public class HomeController {
 
     @RequestMapping("/")
     public String viewBooks() {
-        return   ("index");
+        return ("index");
     }
 }
