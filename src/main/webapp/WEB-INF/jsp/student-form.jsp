@@ -17,9 +17,23 @@
     Country :
     <form:select path="country">
 
-        <form:options items="${student.country}"/>
+        <form:options items="${student.countryOptions}"/>
 
     </form:select>
+
+
+
+    <br><br>
+
+    Favorite Programming Language:
+
+    <br>
+
+    Java <form:radiobutton path="favoriteLanguage" value="Java"/>
+    PHP <form:radiobutton path="favoriteLanguage" value="PHP"/>
+    C# <form:radiobutton path="favoriteLanguage" value="C#"/>
+    Ruby <form:radiobutton path="favoriteLanguage" value="Ruby"/>
+    Python <form:radiobutton path="favoriteLanguage" value="Python"/>
 
     <br><br>
 

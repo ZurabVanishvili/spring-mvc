@@ -18,6 +18,10 @@
         <ul>
             <li><a href="student/showForm">Student Form</a></li>
         </ul>
+
+        <ul>
+            <li><a href="customer/showForm">Customer Form</a></li>
+        </ul>
     </nav>
 </main>
 

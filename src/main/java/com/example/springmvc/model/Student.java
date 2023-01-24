@@ -6,17 +6,24 @@ public class Student {
 
     private String firstName;
     private String lastName;
-    private LinkedHashMap<String,String> country;
+    private String country;
+
+    private String favoriteLanguage;
+
+
+    private LinkedHashMap<String,String> countryOptions;
 
 
     public Student(){
-        country=new LinkedHashMap<>();
 
-        country.put("BR","Brazil");
-        country.put("GEO","Georgia");
-        country.put("FR","France");
-        country.put("IN","India");
-        country.put("US","United States of America");
+        countryOptions =new LinkedHashMap<>();
+
+        countryOptions.put("BR","Brazil");
+        countryOptions.put("GEO","Georgia");
+        countryOptions.put("FR","France");
+        countryOptions.put("IN","India");
+        countryOptions.put("US","United States of America");
+
     }
 
     public String getFirstName() {
@@ -35,7 +42,27 @@ public class Student {
         this.lastName = lastName;
     }
 
-    public LinkedHashMap<String, String> getCountry() {
+
+
+    public String getCountry() {
         return country;
     }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public LinkedHashMap<String, String> getCountryOptions() {
+        return countryOptions;
+    }
+
+    public String getFavoriteLanguage() {
+        return favoriteLanguage;
+    }
+
+    public void setFavoriteLanguage(String favoriteLanguage) {
+        this.favoriteLanguage = favoriteLanguage;
+    }
+
+
 }
