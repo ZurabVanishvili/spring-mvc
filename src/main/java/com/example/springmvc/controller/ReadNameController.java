@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("/hello")
-public class HelloWorldController {
+public class ReadNameController {
 
     //controller method to show initial HTML form
     @RequestMapping("/showForm")
